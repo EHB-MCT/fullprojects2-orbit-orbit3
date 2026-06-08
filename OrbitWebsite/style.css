@@ -57,7 +57,8 @@ body {
 }
 
 a {
-	font-family: "Montserrat";
+	font-family: "century-gothic", sans-serif;
+
 	font-size: 20px;
 	text-decoration: none;
 	color: #001e10;
