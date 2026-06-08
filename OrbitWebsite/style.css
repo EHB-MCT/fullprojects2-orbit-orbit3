@@ -7,7 +7,6 @@ body {
 }
 
 .flexbox {
-	font-family: "Montserrat";
 	font-family: "century-gothic", sans-serif;
 	margin: 0 auto;
 	margin-top: 20vh;
@@ -46,9 +45,11 @@ body {
 }
 
 .logo-horizontaal {
-	width: 10vw;
-	height: 10vh;
+	width: 15vw;
+	height: 15vh;
 	display: flex;
+	background-color: #f7f2f0;
+	border-radius: 8px;
 }
 
 .menu {
@@ -77,4 +78,26 @@ a:hover {
 	font-family: "century-gothic", sans-serif;
 	padding-left: 2vh;
 	padding-right: 2vh;
+}
+
+.footer {
+	background-color: #86ba8a;
+	height: 400px;
+}
+
+.contact {
+	display: flex;
+	gap: 40px;
+	align-items: flex-start;
+	align-items: center;
+}
+
+.orbit-vertical {
+	width: 200px;
+}
+
+.cookies {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
