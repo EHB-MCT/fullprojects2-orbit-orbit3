@@ -17,7 +17,6 @@ body {
 .intro {
 	display: flex;
 	gap: 40px;
-	align-items: flex-start;
 }
 
 .intro p {
@@ -27,7 +26,9 @@ body {
 .intro img {
 	width: 40%;
 	object-fit: cover;
-	/* border-radius: 8px; */
+	border-radius: 8px;
+	background-color: #86ba8a;
+	padding: 2vh;
 }
 .menu-wrapper {
 	display: flex;
@@ -66,11 +67,17 @@ a {
 	text-decoration: none;
 	color: #001e10;
 }
+a:hover {
+	color: #f7f2f0;
+}
 
 .titels {
-	width: 38%;
+	width: 50%;
+	border-radius: 8px;
 	background-color: #86ba8a;
 	font-family: "century-gothic", sans-serif;
+	padding-left: 2vh;
+	padding-right: 2vh;
 }
 
 .footer {
