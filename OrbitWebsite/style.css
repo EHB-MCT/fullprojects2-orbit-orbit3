@@ -30,7 +30,7 @@ body {
 }
 .menu-wrapper {
 	display: flex;
-	padding: 0 10vw;
+	padding: 0 5vw;
 	padding-top: 16px;
 	align-items: center;
 	/* ur elements will be to the max left and right it can, with space between them */
@@ -57,6 +57,8 @@ body {
 }
 
 a {
+	font-family: "Montserrat";
+	font-size: 20px;
 	text-decoration: none;
 	color: #001e10;
 }
