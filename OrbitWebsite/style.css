@@ -6,7 +6,7 @@ body {
 }
 
 .flexbox {
-	font-family: Montserrat;
+	font-family: "century-gothic", sans-serif;
 	margin: 0 auto;
 	margin-top: 20vh;
 	padding: 0 20vh;
@@ -57,7 +57,7 @@ body {
 }
 
 a {
-	font-family: "Montserrat";
+	font-family: "century-gothic", sans-serif;
 	font-size: 20px;
 	text-decoration: none;
 	color: #001e10;
