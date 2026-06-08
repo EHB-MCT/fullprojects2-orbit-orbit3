@@ -45,9 +45,11 @@ body {
 }
 
 .logo-horizontaal {
-	width: 10vw;
-	height: 10vh;
+	width: 15vw;
+	height: 15vh;
 	display: flex;
+	background-color: #f7f2f0;
+	border-radius: 8px;
 }
 
 .menu {
