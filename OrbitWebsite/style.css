@@ -78,11 +78,20 @@ a {
 	height: 400px;
 }
 
-.contact {
+.logos {
 	display: flex;
-	gap: 40px;
+	gap: 50px;
 	align-items: flex-start;
 	align-items: center;
+	padding-left: 200px;
+}
+
+.socials {
+	width: 10px;
+}
+
+.facebook {
+	width: 100px;
 }
 
 .orbit-vertical {
