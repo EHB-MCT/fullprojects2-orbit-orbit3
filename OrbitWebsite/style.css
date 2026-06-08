@@ -6,7 +6,11 @@ body {
 }
 
 .flexbox {
+<<<<<<< HEAD
 	font-family: "Montserrat";
+=======
+	font-family: "century-gothic", sans-serif;
+>>>>>>> 6d8ac62b078398d4430b94a598c47ec6befa712a
 	margin: 0 auto;
 	margin-top: 20vh;
 	padding: 0 20vh;
