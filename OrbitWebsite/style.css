@@ -78,20 +78,19 @@ a {
 	height: 400px;
 }
 
-.cookies {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
 .contact {
 	display: flex;
 	gap: 40px;
 	align-items: flex-start;
+	align-items: center;
 }
 
-.contact img {
-	width: 10%;
-	height: 10%;
+.orbit-vertical {
+	width: 200px;
+}
+
+.cookies {
 	display: flex;
+	align-items: center;
+	justify-content: center;
 }
