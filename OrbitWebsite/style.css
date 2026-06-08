@@ -23,6 +23,24 @@ body {
 	flex: 1;
 }
 
+.gallery-scroll {
+	display: flex;
+	overflow-x: auto;
+	scroll-snap-type: x mandatory;
+	gap: 0px;
+	padding: 2vh;
+	background-color: #86ba8a;
+	border-radius: 8px;
+	scrollbar-width: none;
+	margin-top: 5vh;
+}
+.gallery-scroll img {
+	scroll-snap-align: start;
+	flex-shrink: 0;
+}
+.gallery-scroll img:hover {
+	/* idk gng */
+}
 .intro img {
 	width: 40%;
 	object-fit: cover;
