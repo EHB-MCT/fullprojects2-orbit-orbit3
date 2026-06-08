@@ -64,6 +64,7 @@ a {
 }
 
 .titels {
-	border-radius: 8px;
+	width: 38%;
+	background-color: #86ba8a;
 	font-family: "century-gothic", sans-serif;
 }
