@@ -134,6 +134,7 @@ a:hover {
 .contact {
 	display: flex;
 	flex-direction: column;
+	color: #f7f2f0;
 }
 
 .cookies {
