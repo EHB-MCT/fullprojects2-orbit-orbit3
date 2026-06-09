@@ -23,6 +23,9 @@ body {
 	flex: 1;
 }
 
+.gallery-wrapper {
+	margin-bottom: 5vh;
+}
 .gallery-scroll {
 	display: flex;
 	overflow-x: auto;
