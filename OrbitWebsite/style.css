@@ -89,12 +89,16 @@ a:hover {
 	background-color: #86ba8a;
 	font-family: "century-gothic", sans-serif;
 	padding-left: 2vh;
-	padding-right: 2vh;
-<<<<<<< HEAD
-	margin-left: 7%;
-=======
+	/* margin-left: 7%; */
 	margin-bottom: 3vh;
->>>>>>> 55b069d37f272ff77696bbdaa7fbcecce69f5440
+}
+.titels2 {
+	width: 39%;
+	border-radius: 8px;
+	background-color: #86ba8a;
+	font-family: "century-gothic", sans-serif;
+	padding-left: 2vh;
+	margin-left: 9%;
 }
 
 .footer {
