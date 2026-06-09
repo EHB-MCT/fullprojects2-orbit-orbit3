@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap");
 @import url("https://use.typekit.net/ilz0qoo.css");
+@import url("gallery.css");
 
 body {
 	margin: 0;
@@ -23,27 +24,17 @@ body {
 	flex: 1;
 }
 
-.gallery-wrapper {
-	margin-bottom: 5vh;
-}
-.gallery-scroll {
+.gallery {
+	/* transform: scale(0.7); */
 	display: flex;
-	overflow-x: auto;
+	overflow-x: hidden;
 	scroll-snap-type: x mandatory;
-	gap: 0px;
 	padding: 2vh;
 	background-color: #86ba8a;
 	border-radius: 8px;
-	scrollbar-width: none;
 	margin-top: 5vh;
 }
-.gallery-scroll img {
-	scroll-snap-align: start;
-	flex-shrink: 0;
-}
-.gallery-scroll img:hover {
-	/* idk gng */
-}
+
 .intro img {
 	width: 40%;
 	object-fit: cover;
@@ -127,7 +118,6 @@ a:hover {
 }
 
 .orbit-vertical {
-	margin-top: 5vh;
 	width: 200px;
 }
 
