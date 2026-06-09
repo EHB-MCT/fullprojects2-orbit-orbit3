@@ -144,3 +144,10 @@ a:hover {
 	justify-content: center;
 	color: #f7f2f0;
 }
+
+.cookies a {
+	color: #f7f2f0;
+	font-size: 16px;
+	text-decoration: underline;
+	cursor: pointer;
+}
