@@ -124,6 +124,7 @@ a:hover {
 	gap: 10px;
 	align-items: center;
 	height: 50px;
+	margin-right: 60px;
 }
 
 .socials img {
@@ -136,7 +137,7 @@ a:hover {
 	flex-direction: column;
 	color: #f7f2f0;
 	gap: 10px;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 }
 .contact a {
 	color: #f7f2f0;
@@ -146,6 +147,10 @@ a:hover {
 }
 .contact p {
 	margin: 0;
+}
+.contact h2 {
+	font-size: 40px;
+	margin-bottom: 10px;
 }
 
 .cookies {
