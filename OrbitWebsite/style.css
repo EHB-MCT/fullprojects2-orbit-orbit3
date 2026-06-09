@@ -57,10 +57,11 @@ body {
 }
 
 .logo-horizontaal {
-	width: 15%;
+	width: 14%;
 	display: flex;
 	background-color: #f7f2f0;
 	border-radius: 8px;
+	margin-bottom: 16px;
 }
 
 .menu {
@@ -89,14 +90,17 @@ a:hover {
 	font-family: "century-gothic", sans-serif;
 	padding-left: 2vh;
 	padding-right: 2vh;
+	margin-bottom: 3vh;
 }
 
 .footer {
 	background-color: #86ba8a;
 	height: 400px;
 }
+
 .orbit-vertical {
 	width: 200px;
+	margin-top: 50px;
 }
 
 .logos {
