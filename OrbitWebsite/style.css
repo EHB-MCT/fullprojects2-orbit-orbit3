@@ -120,9 +120,20 @@ a:hover {
 	display: flex;
 	justify-content: space-between;
 	width: fit-content;
+	width: 10%;
 	gap: 10px;
 	align-items: center;
 	height: 50px;
+}
+
+.socials img {
+	width: 30px;
+	height: auto;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
 }
 
 .cookies {
