@@ -135,6 +135,7 @@ a:hover {
 	display: flex;
 	flex-direction: column;
 	color: #f7f2f0;
+	gap: -5px;
 }
 
 .cookies {
