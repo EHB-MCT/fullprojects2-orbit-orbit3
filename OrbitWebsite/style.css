@@ -107,25 +107,27 @@ a:hover {
 
 .logos {
 	display: flex;
-	gap: 50px;
 	align-items: flex-start;
 	align-items: center;
 	padding-left: 200px;
 }
 
 .socials {
-	width: 10%;
 	display: flex;
 }
 
 .facebook {
-	width: 100%;
-	height: 100%;
+	width: 5%;
 }
 
 .instagram {
-	width: 90%;
-	height: 90%;
+	width: 5%;
+	height: 5%;
+}
+
+.bluesky {
+	width: 5%;
+	height: 5%;
 }
 
 .orbit-vertical {
