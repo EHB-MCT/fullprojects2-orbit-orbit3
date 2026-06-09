@@ -95,34 +95,64 @@ a:hover {
 	background-color: #86ba8a;
 	height: 400px;
 }
+.orbit-vertical {
+	width: 200px;
+}
 
 .logos {
 	display: flex;
-	gap: 50px;
 	align-items: flex-start;
 	align-items: center;
-	padding-left: 200px;
+	gap: 50px;
 }
 
 .socials {
-	width: 10%;
 	display: flex;
+	justify-content: space-between;
+	width: fit-content;
+	width: 10%;
+	gap: 10px;
+	align-items: center;
+	height: 50px;
+	margin-right: 60px;
 }
 
-.facebook {
-	width: 100%;
+.socials img {
+	width: 30px;
+	height: auto;
 }
 
-.instagram {
-	width: 100px;
+.contact {
+	display: flex;
+	flex-direction: column;
+	color: #f7f2f0;
+	gap: 10px;
+	margin-bottom: 50px;
 }
-
-.orbit-vertical {
-	width: 200px;
+.contact a {
+	color: #f7f2f0;
+	font-size: 16px;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.contact p {
+	margin: 0;
+}
+.contact h2 {
+	font-size: 40px;
+	margin-bottom: 10px;
 }
 
 .cookies {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	color: #f7f2f0;
+}
+
+.cookies a {
+	color: #f7f2f0;
+	font-size: 16px;
+	text-decoration: underline;
+	cursor: pointer;
 }
