@@ -110,10 +110,12 @@ a:hover {
 	align-items: flex-start;
 	align-items: center;
 	padding-left: 200px;
+	gap: 50px;
 }
 
 .socials {
 	display: flex;
+	justify-content: space-between;
 }
 
 .facebook {
