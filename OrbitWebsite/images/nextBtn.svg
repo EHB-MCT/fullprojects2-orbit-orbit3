@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.38 87.72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #25592b;
+        font-family: MinionVariableConcept-Roman, 'Minion Variable Concept';
+        font-size: 73px;
+        font-variation-settings: 'wght' 400, 'opsz' 11;
+        letter-spacing: 0em;
+        stroke: #001e10;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <text class="cls-1" transform="translate(.5 60.72)"><tspan x="0" y="0">›</tspan></text>
+  </g>
+</svg>
