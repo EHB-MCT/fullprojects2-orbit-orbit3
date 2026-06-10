@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="style.css" />
 		<script src="main.js" defer></script>
+		<script src="click.js" defer></script>
 		<title>OrbitVZW</title>
 	</head>
 	<body>
@@ -109,7 +110,10 @@
 			<div class="gallery">
 				<div>
 					<span><img src="images/VBfoto2.jpg" /></span>
-					<span><img src="images/VBfoto1.jpg" /></span>
+					<span
+						><button id="img-btn">
+							<img src="images/VBfoto1.jpg" alt="" /></button
+					></span>
 					<span><img src="images/VBfoto3.jpg" /></span>
 				</div>
 				<div>
@@ -119,6 +123,13 @@
 				</div>
 			</div>
 			<img src="images/nextBtn.svg" id="nextBtn" />
+		</div>
+		<div class="flexbox">
+			<div class="intro">
+				<div id="description">
+					<p id="description-display"></p>
+				</div>
+			</div>
 		</div>
 
 		<!-- FOOTER -->
