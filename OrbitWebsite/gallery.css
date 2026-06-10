@@ -63,3 +63,21 @@ body {
 	transition: transform 0.1s;
 	transform: scale(1);
 }
+
+@media screen and (max-width: 768px) {
+	.gallery div img {
+		width: 100%;
+		filter: grayscale(0%);
+		transition: transform 0.5s;
+		object-fit: contain;
+		height: 100%;
+	}
+}
+
+.gallery-wrap {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0vh;
+	margin-bottom: 10vh;
+}
