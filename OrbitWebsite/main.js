@@ -9,10 +9,10 @@ let nextBtn = document.getElementById("nextBtn");
 
 nextBtn.addEventListener("click", () => {
 	scrollContainer.style.scrollBehavior = "smooth";
-	scrollContainer.scrollLeft += 900;
+	scrollContainer.scrollLeft += 1250;
 });
 
 backBtn.addEventListener("click", () => {
 	scrollContainer.style.scrollBehavior = "smooth";
-	scrollContainer.scrollLeft -= 900;
+	scrollContainer.scrollLeft -= 1250;
 });
