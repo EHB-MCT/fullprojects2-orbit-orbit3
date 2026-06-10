@@ -10,7 +10,7 @@ body {
 .flexbox {
 	font-family: "century-gothic", sans-serif;
 	margin: 0 auto;
-	margin-top: 20vh;
+	margin-top: 10vh; /*height tussen interactief en footer*/
 	padding: 0 20vh;
 	margin-bottom: 20vh;
 }
@@ -122,7 +122,6 @@ a:hover {
 
 .logos {
 	display: flex;
-	align-items: flex-start;
 	align-items: center;
 	gap: 50px;
 }
@@ -220,11 +219,23 @@ a:hover {
 	color: #f7f2f0;
 }
 
-.links {
-	display: flex;
+.links .link1,
+.links .link2,
+.links .link3,
+.links .link4 {
 	gap: 10px;
-	background-color: #3dade4;
+	background-color: #86ba8a;
+	padding: 10px 20px;
 	border-radius: 8px;
+	margin-left: 210px;
+	color: #001e10;
+}
+.links .link1:hover,
+.links .link2:hover,
+.links .link3:hover,
+.links .link4:hover {
+	background-color: #25592b;
+	color: #f7f2f0;
 }
 
 /* Mobile................................................................................ */
