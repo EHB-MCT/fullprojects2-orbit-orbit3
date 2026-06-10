@@ -367,10 +367,12 @@ a:hover {
 		background-color: #86ba8a;
 		padding: 10px 20px;
 		border-radius: 8px;
-		margin-left: 210px;
+		margin-left: 40%;
 		color: #001e10;
 		margin-bottom: 50px;
 		flex-direction: column;
+		display: block;
+		width: fit-content;
 	}
 	.links .link1:hover,
 	.links .link2:hover,
