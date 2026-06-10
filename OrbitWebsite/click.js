@@ -11,8 +11,12 @@ let display = document.querySelector("#description-display");
 let spans = document.querySelectorAll(".gallery span");
 
 spans.forEach(function (span) {
-	span.addEventListener("click", function () {
+	span.addEventListener("mouseup", function () {
 		let index = span.dataset.index;
 		display.innerText = descriptions[index];
+
+		document.querySelector("#info-section").scrollIntoView({
+			behavior: "smooth",
+		});
 	});
 });
