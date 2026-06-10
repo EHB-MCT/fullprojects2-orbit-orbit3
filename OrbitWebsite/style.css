@@ -220,6 +220,13 @@ a:hover {
 	color: #f7f2f0;
 }
 
+.links {
+	display: flex;
+	gap: 10px;
+	background-color: #3dade4;
+	border-radius: 8px;
+}
+
 /* Mobile................................................................................ */
 @media screen and (max-width: 768px) {
 	.flexbox {
