@@ -228,30 +228,42 @@ a:hover {
 	}
 	.intro img {
 		width: 50%;
-
 		object-fit: cover;
 		border-radius: 8px;
 		background-color: #86ba8a;
 		padding: 2vh;
-	}
-	.titels {
-		width: 100%;
-		border-radius: 8px;
-		background-color: #86ba8a;
-		font-family: "century-gothic", sans-serif;
-		padding-left: 2vh;
-		/* margin-left: 7%; */
-		margin-bottom: 3vh;
-		font-size: 10px;
+		margin-left: 25%;
+		margin-top: 8vh;
 	}
 	.intro {
-		flex-direction: column;
+		flex-direction: column-reverse;
 	}
 
 	.intro p {
-		flex: 1;
-		width: 110%;
-		font-size: 12px;
+		width: 70%;
+		font-family: "century-gothic", sans-serif;
+		margin-left: 15%;
+		font-size: 15px;
+		text-align: center;
+		margin-bottom: 10vh;
+	}
+	.titels {
+		width: 30%;
+		border-radius: 8px;
+		background-color: #86ba8a;
+		font-family: "century-gothic", sans-serif;
+		margin-left: 40vh;
+		margin-bottom: 2vh;
+		font-size: 10px;
+	}
+
+	.titels2 p {
+		font-family: "montserrat", sans-serif;
+		margin-left: 0vh;
+		margin-top: 2vh;
+		font-size: 15px;
+		text-align: center;
+		margin-bottom: 0%;
 	}
 
 	.titels2 h1 {
@@ -260,32 +272,27 @@ a:hover {
 		background-color: #86ba8a;
 		font-family: "century-gothic", sans-serif;
 		padding-left: 2vh;
-		margin-left: 15%;
+		margin-left: 25%;
 		font-size: 20px;
 	}
-	.titels2 p {
-		font-family: "montserrat", sans-serif;
-		margin-left: 15%;
-		margin-top: 3vh;
-		font-size: 13px;
-	}
-
 	/* footer........................................................................ */
 	.footer {
 		background-color: #86ba8a;
 		width: 100%;
+		height: auto;
+		padding: 30px 0;
+		margin-top: 100px;
 	}
 
 	.orbit-vertical {
 		width: 200px;
-		width: 30%;
+		width: 20%;
 	}
 
 	.logos {
 		align-items: flex-start;
 		align-items: center;
 		gap: 50px;
-		background-color: red;
 		flex-direction: column;
 	}
 
@@ -296,12 +303,8 @@ a:hover {
 		gap: 10px;
 		align-items: center;
 		height: 50px;
-		margin-top: 50%;
-		margin-left: -60%;
-	}
-
-	.socials img {
-		width: 40px;
+		margin-top: 20px;
+		margin-left: 0;
 		height: auto;
 	}
 
@@ -310,17 +313,18 @@ a:hover {
 		flex-direction: column;
 		color: #f7f2f0;
 		gap: 10px;
+		text-align: center;
 	}
 
 	.map {
-		width: 100%;
+		width: 80%;
 	}
 	.cookies {
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		color: #f7f2f0;
-		margin-top: 20%;
+		margin-top: 20px;
 		font-size: 13px;
 		width: 100%;
 	}
