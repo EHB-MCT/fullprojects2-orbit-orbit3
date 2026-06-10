@@ -17,6 +17,7 @@ spans.forEach(function (span) {
 
 		document.querySelector("#info-section").scrollIntoView({
 			behavior: "smooth",
+			block: "center",
 		});
 	});
 });
