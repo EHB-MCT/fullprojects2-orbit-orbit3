@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="style.css" />
 		<script src="main.js" defer></script>
+		<script src="click.js" defer></script>
 		<title>OrbitVZW</title>
 	</head>
 	<body>
@@ -108,17 +109,24 @@
 			<img src="images/backBtn.svg" id="backBtn" />
 			<div class="gallery">
 				<div>
-					<span><img src="images/VBfoto2.jpg" /></span>
-					<span><img src="images/VBfoto1.jpg" /></span>
-					<span><img src="images/VBfoto3.jpg" /></span>
+					<span data-index="0"><img src="images/VBfoto2.jpg" /></span>
+					<span data-index="1"><img src="images/VBfoto1.jpg" /></span>
+					<span data-index="2"><img src="images/VBfoto3.jpg" /></span>
 				</div>
 				<div>
-					<span><img src="images/VBfoto5.jpg" /></span>
-					<span><img src="images/VBfoto4.png" /></span>
-					<span><img src="images/VBfoto6.jpg" /></span>
+					<span data-index="3"><img src="images/VBfoto5.jpg" /></span>
+					<span data-index="4"><img src="images/VBfoto4.png" /></span>
+					<span data-index="5"><img src="images/VBfoto6.jpg" /></span>
 				</div>
 			</div>
 			<img src="images/nextBtn.svg" id="nextBtn" />
+		</div>
+		<div class="flexbox">
+			<div class="intro">
+				<div id="description">
+					<p id="description-display"></p>
+				</div>
+			</div>
 		</div>
 
 		<!-- FOOTER -->
