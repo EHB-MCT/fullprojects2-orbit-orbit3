@@ -109,7 +109,7 @@ a:hover {
 	margin-top: 3vh;
 	font-size: 18px;
 }
-
+/* footer........................................................................ */
 .footer {
 	background-color: #86ba8a;
 	height: 400px;
@@ -218,4 +218,127 @@ a:hover {
 
 .dropdown:hover .dropbtn {
 	color: #f7f2f0;
+}
+
+/* Mobile................................................................................ */
+@media screen and (max-width: 768px) {
+	.flexbox {
+		padding: 0;
+		margin: 0;
+	}
+	.intro img {
+		width: 50%;
+		object-fit: cover;
+		border-radius: 8px;
+		background-color: #86ba8a;
+		padding: 2vh;
+		margin-left: 25%;
+		margin-top: 8vh;
+	}
+	.intro {
+		flex-direction: column-reverse;
+	}
+
+	.intro p {
+		width: 70%;
+		font-family: "century-gothic", sans-serif;
+		margin-left: 15%;
+		font-size: 15px;
+		text-align: center;
+		margin-bottom: 10vh;
+	}
+	.titels {
+		width: 30%;
+		border-radius: 8px;
+		background-color: #86ba8a;
+		font-family: "century-gothic", sans-serif;
+		margin-left: 40vh;
+		margin-bottom: 2vh;
+		font-size: 10px;
+	}
+
+	.titels2 p {
+		font-family: "montserrat", sans-serif;
+		margin-left: 0vh;
+		margin-top: 2vh;
+		font-size: 15px;
+		text-align: center;
+		margin-bottom: 0%;
+	}
+
+	.titels2 h1 {
+		width: 50%;
+		border-radius: 8px;
+		background-color: #86ba8a;
+		font-family: "century-gothic", sans-serif;
+		padding-left: 2vh;
+		margin-left: 25%;
+		font-size: 20px;
+	}
+	/* footer........................................................................ */
+	.footer {
+		background-color: #86ba8a;
+		width: 100%;
+		height: auto;
+		padding: 30px 0;
+		margin-top: 100px;
+	}
+
+	.orbit-vertical {
+		width: 200px;
+		width: 20%;
+	}
+
+	.logos {
+		align-items: flex-start;
+		align-items: center;
+		gap: 50px;
+		flex-direction: column;
+	}
+
+	.socials {
+		justify-content: space-between;
+		width: fit-content;
+		width: 10%;
+		gap: 10px;
+		align-items: center;
+		height: 50px;
+		margin-top: 20px;
+		margin-left: 0;
+		height: auto;
+	}
+
+	.contact {
+		display: flex;
+		flex-direction: column;
+		color: #f7f2f0;
+		gap: 10px;
+		text-align: center;
+	}
+
+	.map {
+		width: 80%;
+	}
+	.cookies {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: #f7f2f0;
+		margin-top: 20px;
+		font-size: 13px;
+		width: 100%;
+	}
+
+	.cookies a {
+		color: #f7f2f0;
+		font-size: 16px;
+		text-decoration: underline;
+		cursor: pointer;
+		font-size: 13px;
+	}
+	.menu {
+		flex-direction: column;
+		margin-top: 100px;
+		gap: 10px;
+	}
 }
