@@ -25,6 +25,8 @@ body {
 
 .gallery div span {
 	max-height: 580px;
+	overflow: hidden;
+	border-radius: 6px;
 }
 
 .gallery div img {
@@ -86,6 +88,14 @@ body {
 	display: flex;
 	flex-direction: column;
 	position: relative;
+	height: 350px;
+	border-radius: 6px;
+}
+
+.gallery div div span img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover; /* vult de ruimte zonder vervorming */
 }
 
 .gallery div div p {
@@ -93,7 +103,7 @@ body {
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	background: rgba(0, 0, 0, 0.5);
-	color: white;
+	background: rgba(134, 186, 138, 0.5);
+	color: #f7f2f0;
 	padding: 8px;
 }
