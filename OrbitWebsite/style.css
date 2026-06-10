@@ -338,5 +338,7 @@ a:hover {
 	}
 	.menu {
 		flex-direction: column;
+		margin-top: 100px;
+		gap: 10px;
 	}
 }
