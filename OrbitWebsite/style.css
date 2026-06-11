@@ -362,13 +362,13 @@ a:hover {
 		margin: 0;
 	}
 	.intro img {
-		width: 50%;
+		width: 80%;
 		object-fit: cover;
 		border-radius: 8px;
 		background-color: #86ba8a;
 		padding: 2vh;
-		margin-left: 25%;
-		margin-top: 8vh;
+		margin-left: 9%;
+		margin-top: 5vh;
 	}
 	.intro {
 		flex-direction: column-reverse;
