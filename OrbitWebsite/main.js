@@ -30,3 +30,27 @@ function toggleBurger() {
 		document.body.removeAttribute("burger-active-menu");
 	}
 }
+
+// MOBILE DROPDOWN
+document.querySelectorAll(".dropbtn").forEach((btn) => {
+	btn.addEventListener("click", function (e) {
+		if (window.innerWidth <= 768) {
+			const dropdownContent = this.nextElementSibling;
+
+			if (!dropdownContent.classList.contains("open")) {
+				e.preventDefault(); // first tap: open dropdown, don't navigate
+				dropdownContent.classList.add("open");
+			}
+			// second tap: link works normally
+		}
+	});
+});
+
+// close dropdown when clicking outside
+document.addEventListener("click", function (e) {
+	if (!e.target.closest(".dropdown")) {
+		document.querySelectorAll(".dropdown-content.open").forEach((d) => {
+			d.classList.remove("open");
+		});
+	}
+});

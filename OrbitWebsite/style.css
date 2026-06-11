@@ -42,7 +42,7 @@ body {
 	object-fit: cover;
 	border-radius: 8px;
 	background-color: #86ba8a;
-	padding: 2vh;
+	padding: 3vh;
 }
 .menu-wrapper {
 	display: flex;
@@ -57,6 +57,7 @@ body {
 	height: 130px;
 	background-color: #86ba8a;
 	border-bottom: 8px;
+	border-radius: 8px;
 }
 
 .logo-horizontaal {
@@ -75,6 +76,7 @@ body {
 	list-style: none;
 }
 
+/* begin burger code */
 .burger-menu {
 	display: none;
 	position: relative;
@@ -95,7 +97,8 @@ body {
 .burger-logo span {
 	width: 100%;
 	height: 2px;
-	background-color: blue;
+	/* kleur van de burger menu */
+	background-color: #001e10;
 	display: block;
 	position: absolute;
 	top: 50%;
@@ -110,7 +113,8 @@ body {
 	width: 100%;
 	height: 2px;
 	left: 0;
-	background-color: blue;
+	/* kleur van de burger menu */
+	background-color: #001e10;
 	border-radius: 20px;
 	transition: all 0.3s ease-in-out;
 }
@@ -120,6 +124,9 @@ body {
 .burger-logo span::after {
 	transform: translateY(8px);
 }
+
+/* einde burger code */
+/*Titels*/
 
 a {
 	font-family: "century-gothic", sans-serif;
@@ -138,7 +145,6 @@ a:hover {
 	background-color: #86ba8a;
 	font-family: "century-gothic", sans-serif;
 	padding-left: 2vh;
-	/* margin-left: 7%; */
 	margin-bottom: 3vh;
 }
 
@@ -156,6 +162,7 @@ a:hover {
 	margin-top: 3vh;
 	font-size: 18px;
 }
+
 /* footer........................................................................ */
 .footer {
 	background-color: #86ba8a;
@@ -302,11 +309,25 @@ a:hover {
 		right: 0;
 		height: 100%;
 		width: 100%;
-		background-color: red;
+		background-color: #cedbcf;
 		z-index: 10;
 		display: flex;
 		flex-direction: column;
+		padding-top: 25px;
 	}
+	body[burger-active-menu] .menu-item-cart {
+		display: none;
+	}
+
+	/* zodat de "over orbit" en "thema's" links niet klikbaar zijn in burgermenu" */
+	.dropdown-content {
+		display: none;
+	}
+	.dropdown-content.open {
+		display: flex;
+		flex-direction: column;
+	}
+
 	body[burger-active-menu] .burger-logo span {
 		background-color: transparent;
 	}
@@ -319,6 +340,13 @@ a:hover {
 
 	/* einde code burgermenu */
 
+	.logo-horizontaal {
+		width: 28%;
+		display: flex;
+		background-color: #f7f2f0;
+		border-radius: 8px;
+		margin-bottom: 16px;
+	}
 	.flexbox {
 		padding: 0;
 		margin: 0;
@@ -345,7 +373,7 @@ a:hover {
 		margin-bottom: 10vh;
 	}
 	.titels {
-		width: 30%;
+		width: 25%;
 		border-radius: 8px;
 		background-color: #86ba8a;
 		font-family: "century-gothic", sans-serif;
@@ -364,7 +392,7 @@ a:hover {
 	}
 
 	.titels2 h1 {
-		width: 50%;
+		width: 46%;
 		border-radius: 8px;
 		background-color: #86ba8a;
 		font-family: "century-gothic", sans-serif;
@@ -459,5 +487,11 @@ a:hover {
 	.links .link4:hover {
 		background-color: #25592b;
 		color: #f7f2f0;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.titels {
+		margin-left: 20vh;
 	}
 }
