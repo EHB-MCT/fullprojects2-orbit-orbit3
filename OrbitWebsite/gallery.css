@@ -75,6 +75,20 @@ body {
 		object-fit: contain;
 		height: 100%;
 	}
+
+	.gallery div {
+		grid-template-columns: 1fr;
+	}
+
+	.gallery div div span {
+		height: 280px;
+	}
+
+	#backBtn,
+	#nextBtn {
+		width: 5vh;
+		margin: 2vh;
+	}
 }
 
 .gallery-wrap {
