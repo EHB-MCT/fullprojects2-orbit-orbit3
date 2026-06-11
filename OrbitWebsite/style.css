@@ -320,12 +320,14 @@ a:hover {
 	}
 
 	body[burger-active-menu] .menu-wrapper {
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 100%;
-		z-index: 100;
-		box-sizing: border-box;
+		.menu-wrapper {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			z-index: 100;
+			box-sizing: border-box;
+		}
 	}
 
 	/* zodat de "over orbit" en "thema's" links niet klikbaar zijn in burgermenu" */
@@ -360,13 +362,13 @@ a:hover {
 		margin: 0;
 	}
 	.intro img {
-		width: 45vh;
+		width: 50%;
 		object-fit: cover;
 		border-radius: 8px;
 		background-color: #86ba8a;
 		padding: 2vh;
-		padding: 1vh;
-		margin: 2vh;
+		margin-left: 25%;
+		margin-top: 8vh;
 	}
 	.intro {
 		flex-direction: column-reverse;
