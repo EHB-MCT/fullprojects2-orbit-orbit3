@@ -7,11 +7,12 @@ body {
 	background-color: #f7f2f0;
 }
 
-.flexbox {
+.flexbox,
+.flexbox-footer {
 	font-family: "century-gothic", sans-serif;
 	margin: 0 auto;
 	margin-top: 10vh; /*height tussen interactief en footer*/
-	padding: 0 20vh;
+	padding: 0 10vw;
 	margin-bottom: 20vh;
 }
 
@@ -176,7 +177,7 @@ a:hover {
 .logos {
 	display: flex;
 	align-items: center;
-	gap: 50px;
+	justify-content: space-between;
 }
 
 .socials {
@@ -187,7 +188,6 @@ a:hover {
 	gap: 10px;
 	align-items: center;
 	height: 50px;
-	margin-right: 60px;
 }
 
 .socials img {
@@ -273,15 +273,20 @@ a:hover {
 	color: #f7f2f0;
 }
 
+.links {
+	display: flex;
+	flex-direction: row;
+	gap: 50px;
+	justify-content: center;
+}
+
 .links .link1,
 .links .link2,
 .links .link3,
 .links .link4 {
-	gap: 10px;
 	background-color: #86ba8a;
 	padding: 10px 20px;
 	border-radius: 8px;
-	margin-left: 210px;
 	color: #001e10;
 }
 .links .link1:hover,
@@ -294,6 +299,9 @@ a:hover {
 
 /* Mobile................................................................................ */
 @media screen and (max-width: 768px) {
+	body[burger-active-menu] {
+		overflow-y: hidden;
+	}
 	/* begin code burgermenu */
 
 	.menu {
@@ -314,20 +322,20 @@ a:hover {
 		display: flex;
 		flex-direction: column;
 		padding-top: 25px;
+		padding-left: 35px;
+		align-items: flex-start;
 	}
 	body[burger-active-menu] .menu-item-cart {
 		display: none;
 	}
 
 	body[burger-active-menu] .menu-wrapper {
-		.menu-wrapper {
-			position: fixed;
-			top: 0;
-			left: 0;
-			width: 100%;
-			z-index: 100;
-			box-sizing: border-box;
-		}
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		z-index: 100;
+		box-sizing: border-box;
 	}
 
 	/* zodat de "over orbit" en "thema's" links niet klikbaar zijn in burgermenu" */
@@ -358,7 +366,8 @@ a:hover {
 		border-radius: 8px;
 		margin-bottom: 16px;
 	}
-	.flexbox {
+	.flexbox,
+	.flexbox-footer {
 		padding: 0;
 		margin: 0;
 	}
@@ -368,7 +377,7 @@ a:hover {
 		border-radius: 8px;
 		background-color: #86ba8a;
 		padding: 2vh;
-		margin-left: 9%;
+		margin: 0 auto;
 		margin-top: 5vh;
 	}
 	.intro {
@@ -380,15 +389,14 @@ a:hover {
 		font-family: "century-gothic", sans-serif;
 		margin-left: 15%;
 		font-size: 15px;
-		text-align: center;
+		text-align: left;
 		margin-bottom: 10vh;
 	}
 	.titels {
-		width: 25%;
 		border-radius: 8px;
 		background-color: #86ba8a;
 		font-family: "century-gothic", sans-serif;
-		margin-left: 45vh;
+		margin-left: 15%;
 		margin-bottom: 2vh;
 		font-size: 10px;
 		text-align: center;
@@ -397,20 +405,19 @@ a:hover {
 
 	.titels2 p {
 		font-family: "montserrat", sans-serif;
-		margin-left: 0vh;
+		margin-left: 15%;
 		margin-top: 2vh;
 		font-size: 15px;
-		text-align: center;
+		text-align: left;
 		margin-bottom: 0%;
 	}
 
 	.titels2 h1 {
-		width: 46%;
+		width: 75%;
 		border-radius: 8px;
 		background-color: #86ba8a;
 		font-family: "century-gothic", sans-serif;
-		padding-left: 2px;
-		margin-left: 30%;
+		margin-left: 15%;
 		font-size: 20px;
 		text-align: center;
 	}
@@ -438,12 +445,9 @@ a:hover {
 	.socials {
 		justify-content: space-between;
 		width: fit-content;
-		width: 10%;
 		gap: 10px;
 		align-items: center;
 		height: 50px;
-		margin-top: 20px;
-		margin-left: 0;
 		height: auto;
 	}
 
@@ -481,18 +485,22 @@ a:hover {
 		margin-top: 100px;
 		gap: 10px;
 	}
+
+	.links {
+		display: flex;
+		flex-direction: column;
+		gap: 25px;
+	}
+
 	.links .link1,
 	.links .link2,
 	.links .link3,
 	.links .link4 {
-		gap: 10px;
 		background-color: #86ba8a;
 		padding: 10px 20px;
 		border-radius: 8px;
-		margin-left: 40%;
+		margin: 0 auto;
 		color: #001e10;
-		margin-bottom: 50px;
-		flex-direction: column;
 		display: block;
 		width: fit-content;
 	}
@@ -505,8 +513,8 @@ a:hover {
 	}
 }
 
-@media screen and (max-width: 500px) {
-	.titels {
-		margin-left: 20vh;
+@media screen and (max-width: 1250px) {
+	.flexbox-footer {
+		padding: 0;
 	}
 }
