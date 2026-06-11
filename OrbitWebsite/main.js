@@ -38,16 +38,12 @@ document.querySelectorAll(".dropbtn").forEach((btn) => {
 			const dropdownContent = this.nextElementSibling;
 
 			if (!dropdownContent.classList.contains("open")) {
-<<<<<<< HEAD
 				e.preventDefault(); // first tap: open dropdown, don't navigate
 				// EDIT
 				document.querySelectorAll(".dropdown-content.open").forEach((d) => {
 					d.classList.remove("open");
 				});
 				//EDIT
-=======
-				e.preventDefault();
->>>>>>> 4f02b316874cb9b80fd4070599123e7daa8d41f8
 				dropdownContent.classList.add("open");
 			}
 		}
