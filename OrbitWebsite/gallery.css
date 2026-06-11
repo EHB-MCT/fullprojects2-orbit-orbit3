@@ -12,18 +12,23 @@ body {
 }
 
 .gallery {
-	width: 100%;
+	/* width: 100%; */
 	display: flex;
-	overflow-x: scroll;
+	/* overflow-x: scroll; */
+	overflow: hidden;
 }
 
 .gallery div {
 	width: 100%;
 	display: grid;
-	grid-template-columns: auto auto auto;
-	gap: 1vh;
+	grid-template-columns: repeat(6, calc(33.333% - 1vh));
+	overflow-x: scroll;
+	scroll-behavior: smooth;
+	scroll-snap-type: x mandatory;
+	gap: 2vh;
 	padding: 1vh 1vh;
-	flex: none;
+	scrollbar-width: none;
+	/* flex: none; */
 }
 
 .gallery div span {
@@ -77,11 +82,7 @@ body {
 	}
 
 	.gallery div {
-		grid-template-columns: 1fr;
-	}
-
-	.gallery div div span {
-		height: 280px;
+		grid-template-columns: repeat(6, 100%);
 	}
 
 	#backBtn,
@@ -99,7 +100,7 @@ body {
 	margin-bottom: 10vh;
 }
 
-.gallery div div span {
+.gallery div span {
 	display: flex;
 	flex-direction: column;
 	position: relative;
@@ -107,13 +108,13 @@ body {
 	border-radius: 6px;
 }
 
-.gallery div div span img {
+.gallery div span img {
 	width: 100%;
 	height: 100%;
-	object-fit: cover; /* vult de ruimte zonder vervorming */
+	object-fit: cover;
 }
 
-.gallery div div p {
+.gallery div p {
 	position: absolute;
 	bottom: 0;
 	left: 0;
