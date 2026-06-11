@@ -61,9 +61,8 @@ body {
 }
 
 .logo-horizontaal {
-	width: 14%;
+	width: 16%;
 	display: flex;
-	background-color: #f7f2f0;
 	border-radius: 8px;
 	margin-bottom: 16px;
 }
