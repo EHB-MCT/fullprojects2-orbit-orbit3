@@ -299,6 +299,7 @@ a:hover {
 	.menu {
 		display: none;
 	}
+
 	.burger-menu {
 		display: flex;
 	}
@@ -316,6 +317,15 @@ a:hover {
 	}
 	body[burger-active-menu] .menu-item-cart {
 		display: none;
+	}
+
+	body[burger-active-menu] .menu-wrapper {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		z-index: 100;
+		box-sizing: border-box;
 	}
 
 	/* zodat de "over orbit" en "thema's" links niet klikbaar zijn in burgermenu" */
@@ -476,7 +486,7 @@ a:hover {
 		background-color: #86ba8a;
 		padding: 10px 20px;
 		border-radius: 8px;
-		margin-left: 45%;
+		margin-left: 40%;
 		color: #001e10;
 		margin-bottom: 50px;
 		flex-direction: column;
