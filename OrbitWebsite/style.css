@@ -375,9 +375,11 @@ a:hover {
 		border-radius: 8px;
 		background-color: #86ba8a;
 		font-family: "century-gothic", sans-serif;
-		margin-left: 40vh;
+		margin-left: 45vh;
 		margin-bottom: 2vh;
 		font-size: 10px;
+		text-align: center;
+		padding-right: 2vh;
 	}
 
 	.titels2 p {
@@ -394,9 +396,10 @@ a:hover {
 		border-radius: 8px;
 		background-color: #86ba8a;
 		font-family: "century-gothic", sans-serif;
-		padding-left: 2vh;
-		margin-left: 25%;
+		padding-left: 2px;
+		margin-left: 30%;
 		font-size: 20px;
+		text-align: center;
 	}
 	/* footer........................................................................ */
 	.footer {
@@ -450,6 +453,7 @@ a:hover {
 		margin-top: 20px;
 		font-size: 13px;
 		width: 100%;
+		text-align: center;
 	}
 
 	.cookies a {
