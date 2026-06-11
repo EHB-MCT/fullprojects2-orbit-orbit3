@@ -56,6 +56,7 @@ body {
 	font-size: 20px;
 	height: 130px;
 	background-color: #86ba8a;
+	border-bottom: 8px;
 }
 
 .logo-horizontaal {
@@ -72,6 +73,52 @@ body {
 	gap: 50px;
 	align-items: center;
 	list-style: none;
+}
+
+.burger-menu {
+	display: none;
+	position: relative;
+	z-index: 11;
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+.burger-logo {
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.burger-logo span {
+	width: 100%;
+	height: 2px;
+	background-color: blue;
+	display: block;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	border-radius: 20px;
+	transition: background-color 0.3s ease-in-out;
+}
+.burger-logo span::before,
+.burger-logo span::after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	left: 0;
+	background-color: blue;
+	border-radius: 20px;
+	transition: all 0.3s ease-in-out;
+}
+.burger-logo span::before {
+	transform: translateY(-8px);
+}
+.burger-logo span::after {
+	transform: translateY(8px);
 }
 
 a {
@@ -241,6 +288,37 @@ a:hover {
 
 /* Mobile................................................................................ */
 @media screen and (max-width: 768px) {
+	/* begin code burgermenu */
+
+	.menu {
+		display: none;
+	}
+	.burger-menu {
+		display: flex;
+	}
+	body[burger-active-menu] .menu {
+		position: fixed;
+		top: 0;
+		right: 0;
+		height: 100%;
+		width: 100%;
+		background-color: red;
+		z-index: 10;
+		display: flex;
+		flex-direction: column;
+	}
+	body[burger-active-menu] .burger-logo span {
+		background-color: transparent;
+	}
+	body[burger-active-menu] .burger-logo span::before {
+		transform: translateY(0) rotateZ(45deg);
+	}
+	body[burger-active-menu] .burger-logo span::after {
+		transform: translateY(0) rotateZ(-45deg);
+	}
+
+	/* einde code burgermenu */
+
 	.flexbox {
 		padding: 0;
 		margin: 0;
