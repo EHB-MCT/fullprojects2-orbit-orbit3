@@ -342,7 +342,6 @@ a:hover {
 	.logo-horizontaal {
 		width: 28%;
 		display: flex;
-		background-color: #f7f2f0;
 		border-radius: 8px;
 		margin-bottom: 16px;
 	}
