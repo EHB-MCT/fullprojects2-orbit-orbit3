@@ -39,6 +39,11 @@ document.querySelectorAll(".dropbtn").forEach((btn) => {
 
 			if (!dropdownContent.classList.contains("open")) {
 				e.preventDefault(); // first tap: open dropdown, don't navigate
+				// EDIT
+				document.querySelectorAll(".dropdown-content.open").forEach((d) => {
+					d.classList.remove("open");
+				});
+				//EDIT
 				dropdownContent.classList.add("open");
 			}
 			// second tap: link works normally
