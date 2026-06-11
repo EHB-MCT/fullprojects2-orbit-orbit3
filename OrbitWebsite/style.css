@@ -337,6 +337,12 @@ a:hover {
 		transform: translateY(0) rotateZ(-45deg);
 	}
 
+	.menu:has(.dropdown-content.open) .menu-item,
+	.menu:has(.dropdown-content.open)
+		.dropdown:not(:has(> .dropdown-content.open)) {
+		visibility: hidden;
+	}
+
 	/* einde code burgermenu */
 
 	.logo-horizontaal {
