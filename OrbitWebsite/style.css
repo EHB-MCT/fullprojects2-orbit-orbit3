@@ -337,6 +337,7 @@ a:hover {
 	.dropdown-content.open {
 		display: flex;
 		flex-direction: column;
+		z-index: 11;
 	}
 
 	body[burger-active-menu] .burger-logo span {
