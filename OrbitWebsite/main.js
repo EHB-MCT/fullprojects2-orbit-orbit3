@@ -1,7 +1,7 @@
 //laat deze lijn staan pls
 "use strict";
 
-let scrollContainer = document.querySelector(".gallery");
+let scrollContainer = document.querySelector(".gallery div");
 let backBtn = document.getElementById("backBtn");
 let nextBtn = document.getElementById("nextBtn");
 
@@ -11,13 +11,11 @@ let nextBtn = document.getElementById("nextBtn");
 // });
 
 nextBtn.addEventListener("click", () => {
-	scrollContainer.style.scrollBehavior = "smooth";
-	scrollContainer.scrollLeft += 1260;
+	scrollContainer.scrollLeft += scrollContainer.offsetWidth;
 });
 
 backBtn.addEventListener("click", () => {
-	scrollContainer.style.scrollBehavior = "smooth";
-	scrollContainer.scrollLeft -= 1260;
+	scrollContainer.scrollLeft -= scrollContainer.offsetWidth;
 });
 
 //BURGERMENU
@@ -33,17 +31,16 @@ function toggleBurger() {
 	}
 }
 
-// MOBILE DROPDOWN
+// Mobile dropdown open (without immediately following link)
 document.querySelectorAll(".dropbtn").forEach((btn) => {
 	btn.addEventListener("click", function (e) {
 		if (window.innerWidth <= 768) {
 			const dropdownContent = this.nextElementSibling;
 
 			if (!dropdownContent.classList.contains("open")) {
-				e.preventDefault(); // first tap: open dropdown, don't navigate
+				e.preventDefault();
 				dropdownContent.classList.add("open");
 			}
-			// second tap: link works normally
 		}
 	});
 });
