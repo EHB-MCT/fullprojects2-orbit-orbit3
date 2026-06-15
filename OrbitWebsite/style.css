@@ -320,7 +320,7 @@ a:hover {
 	}
 	body[burger-active-menu] .menu {
 		position: fixed;
-		top: 0;
+		top: 25px;
 		right: 0;
 		height: 100%;
 		width: 100%;
