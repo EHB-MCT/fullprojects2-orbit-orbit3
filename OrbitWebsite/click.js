@@ -61,9 +61,9 @@ const images = [
 	"images/solidaire-Standenmarkt.png",
 	"images/interlevensbeschouwelijke-Iftar.png",
 	"images/Portie-gemengd.png",
-	"images/VBfoto5.jpg",
-	"images/VBfoto4.png",
-	"images/VBfoto6.jpg",
+	"images/Gezamenlijke-vastenmaaltijd.png",
+	"images/Toekomstige-projecten.png",
+	"images/Vier-vrede.png",
 ];
 
 let display = document.querySelector("#description-display");
