@@ -6,7 +6,12 @@ const descriptions = [
 	Lokale organisaties die actief zijn in de strijd tegen armoede werden ook uitgenodigd om deel te nemen en/of de markt te bezoeken met hun leden.
 	Er werden oplossingen voorzien om eventuele financiële obstakels weg te nemen, want we willen dat iedereen van dit moment kon genieten.
 	Het was een warm, solidair en toegankelijk evenement – voor een iets aangenamere maand november.`,
-	"Beschrijving van foto 2",
+	`Interlevensbeschouwelijke Iftar, Brussel 2026
+Een intergenerationele iftar brengt jongeren en ouderen van diverse achtergronden samen om de vasten te verbreken, vaak met als doel verbinding,
+ dialoog en eenzaamheidsbestrijding. Deze evenementen, zoals georganiseerd door bijvoorbeeld Brussel Ouderenplatform vzw,
+  focussen op ontmoeting en het delen van ervaringen rond de ramadan. De maaltijd begon traditioneel met harira (soep) en dadels bij zonsondergang.
+   Deze evenement vond plaats op 28 februari 2026.`,
+
 	"Beschrijving van foto 3",
 	"Beschrijving van foto 4",
 	"Beschrijving van foto 5",
@@ -15,7 +20,7 @@ const descriptions = [
 
 const images = [
 	"images/solidaire-Standenmarkt.png",
-	"images/VBfoto1.jpg",
+	"images/interlevensbeschouwelijke-Iftar.png",
 	"images/VBfoto3.jpg",
 	"images/VBfoto5.jpg",
 	"images/VBfoto4.png",

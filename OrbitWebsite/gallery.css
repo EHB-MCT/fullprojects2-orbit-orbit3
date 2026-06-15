@@ -143,3 +143,9 @@ body {
 	order: 1;
 	flex: 1;
 }
+
+@media screen and (max-width: 768px) {
+	#info-image {
+		display: none;
+	}
+}
