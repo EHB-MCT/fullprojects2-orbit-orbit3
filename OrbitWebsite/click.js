@@ -1,4 +1,5 @@
 const descriptions = [
+<<<<<<< HEAD
 	`Op 29/11 hebben we samen met Indus en hun organisaties een solidaire standenmarkt georganiseerd.
 	Er waren in totaal 70 bezoekers langsgekomen om de kraampjes te komen zien.
 	Onze motivatie is eenvoudig: een evenement creëren waar de gemeenschap samenkomt,
@@ -12,6 +13,16 @@ Een intergenerationele iftar brengt jongeren en ouderen van diverse achtergronde
   focussen op ontmoeting en het delen van ervaringen rond de ramadan. De maaltijd begon traditioneel met harira (soep) en dadels bij zonsondergang.
    Deze evenement vond plaats op 28 februari 2026.`,
 
+=======
+	`Op <strong>29/11</strong> hebben we samen met <strong>Indus</strong> en hun organisaties een <strong>solidaire standenmarkt</strong> georganiseerd.
+	Er waren in totaal <strong>70 bezoekers</strong> langsgekomen om de kraampjes te komen zien.
+	Onze motivatie is eenvoudig: een <strong>evenement creëren waar de gemeenschap samenkomt</strong>,
+	ongeacht afkomst en cultuur, om een belangrijk sociaal <strong>doel te steunen</strong>.
+	Lokale organisaties die actief zijn in de <strong>strijd tegen armoede</strong> werden ook uitgenodigd om deel te nemen en/of de markt te bezoeken met hun leden.
+	Er werden <strong>oplossingen</strong> voorzien om eventuele <strong>financiële obstakels weg te nemen</strong>, want we willen dat iedereen van dit moment kon genieten.
+	Het was een <strong>warm, solidair en toegankelijk evenement</strong> voor een iets aangenamere maand november.`,
+	"Beschrijving van foto 2",
+>>>>>>> fa627aa9d7f2ff55f9d2ad81c973c4753484f9b2
 	"Beschrijving van foto 3",
 	"Beschrijving van foto 4",
 	"Beschrijving van foto 5",
