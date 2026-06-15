@@ -10,7 +10,7 @@ const descriptions = [
 	`Een <strong>intergenerationele iftar</strong> brengt jongeren en ouderen van <strong>diverse achtergronden</strong> samen om de <strong>vasten te verbreken</strong>, vaak met als doel <strong>verbinding</strong>,
  	<strong>dialoog</strong> en <strong>eenzaamheidsbestrijding</strong>. Deze evenementen, zoals georganiseerd door bijvoorbeeld Brussel Ouderenplatform vzw,
   	focussen op <strong>ontmoeting</strong> en het <strong>delen van ervaringen</strong> rond de <strong>ramadan</strong>. De maaltijd begon traditioneel met harira (soep) en dadels bij zonsondergang.
-   	Deze evenement vond plaats op 28 februari 2026.`,
+   	Dit evenement vond plaats op 28 februari 2026.`,
 
 	`Op 22 maart 2025 hebben we samen met enkele <strong>middenveldorganisaties uit Leuven</strong> zoals Broederlijk Delen “Portie Gemengd” 
 	georganiseerd. Dit was naar aanleiding van <strong>3 vastenperiodes</strong> die samenvielen, namelijk de <strong>Baháʼí, de Ramadan en de christelijke
@@ -26,16 +26,10 @@ const descriptions = [
  	een <strong>spelletje bingo</strong>, dat moet helpen om het <strong>gesprek</strong> op gang te brengen. Daarna heten vertegenwoordigers van de organiserende
  	gemeenschappen de aanwezigen welkom en kan de maaltijd beginnen`,
 
-	`<strong>Samenwerking met de katholieke kerk</strong> voor gebruik vanleegstaande parochietuin</strong>:<br /> <strong>
+	`<strong>Samenwerking met de katholieke kerk</strong> voor gebruik van leegstaande parochietuin</strong>:<br />
 	Dit project is momenteel in opstart. Er wordt actief samengewerkt met de katholieke kerk rond het mogelijke gebruik van een leegstaande parochietuin. <br />
-
-	<strong>Werving van LB in het vrijwilligerskorps Crevits:</strong><br />
 	Het is nog <strong>te vroeg</strong> om hier concrete stappen in te zetten. Dit wordt <strong>later</strong> verder opgepikt. <br />
-
-	<strong>Gesprek >met de stad over een begeleidingstraject:<br /></strong
 	Er is interesse vanuit de stad voor een <strong>samenwerking</strong>. Als eerste concrete stap werd een IL-kookactiviteit ter <strong>kennismaking</strong> toegezegd.<br />
-
-	<strong>Subsidieaanvraag rond het thema "Brood Delen" bij de Orde van de Prins:	</strong><br />
 	De aanvraag werd ingediend. We <strong>wachten</strong> momenteel op de <strong>uitkomst</strong> van de bestuursvergadering in april.`,
 
 	`Het evenement kende een mooie opkomst met <strong>90 aanwezigen</strong> uit <strong>verschillende levensbeschouwingen</strong>. Zowel de dialoog als de 
@@ -49,7 +43,7 @@ const descriptions = [
 	<strong>samenwerking en dankbaarheid</strong> dat in vele culturen en tradities weerklank vindt.
 	"Samen Oogsten" wil een moment van <strong>echte ontmoeting</strong> zijn, waarbij dialoog en verbinding centraal
 	staan. Via <strong>activiteiten</strong>, sprekers en gedeelde ervaringen krijgen deelnemers de kans om <strong>elkaar beter te leren
-	kennen</strong> en bruggen te bouwen over de grenzen van <strong>achtergrond, cultuur en geloof</strong> heen.
+	kennen</strong> en bruggen te bouwen over de grenzen van achtergrond, cultuur en geloof heen.
 	Het evenement past binnen de bredere werking van Orbit vzw, die in de regio Waasland actief
 	inzet op ontmoeting tussen levensbeschouwelijke gemeenschappen en het versterken van sociale cohesie.`,
 ];
@@ -61,6 +55,7 @@ const images = [
 	"images/Gezamenlijke-vastenmaaltijd.png",
 	"images/Toekomstige-projecten.png",
 	"images/Vier-vrede.png",
+	"images/Samen-oogsten.png",
 ];
 
 let display = document.querySelector("#description-display");
@@ -68,7 +63,7 @@ let infoImage = document.querySelector("#info-image");
 let spans = document.querySelectorAll(".gallery span");
 
 spans.forEach(function (span) {
-	span.addEventListener("click", function () {
+	span.addEventListener("mouseup", function () {
 		let index = span.dataset.index;
 		display.innerHTML = descriptions[index];
 		infoImage.src = images[index];
