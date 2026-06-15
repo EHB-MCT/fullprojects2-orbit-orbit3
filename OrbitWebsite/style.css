@@ -529,3 +529,56 @@ a:hover {
 		padding: 0;
 	}
 }
+@media screen and (max-width: 1025px) {
+	.links {
+		display: flex;
+		flex-direction: column;
+		gap: 25px;
+	}
+	.links .link1,
+	.links .link2,
+	.links .link3,
+	.links .link4,
+	.links .link5,
+	.links .link6,
+	.links .link7 {
+		background-color: #86ba8a;
+		padding: 10px 20px;
+		border-radius: 8px;
+		margin: 0 auto;
+		color: #001e10;
+		display: block;
+		width: fit-content;
+	}
+	.links .link1:hover,
+	.links .link2:hover,
+	.links .link3:hover,
+	.links .link4:hover,
+	.links .link5:hover,
+	.links .link6:hover,
+	.links .link7:hover {
+		background-color: #25592b;
+		color: #f7f2f0;
+	}
+
+	a {
+		font-family: "century-gothic", sans-serif;
+		font-weight: bold;
+		font-size: 15px;
+		text-decoration: none;
+		color: #001e10;
+	}
+	a:hover {
+		color: #f7f2f0;
+	}
+	.dropbtn {
+		font-family: "century-gothic", sans-serif;
+		font-weight: bold;
+		font-size: 15px;
+		text-decoration: none;
+		color: #001e10;
+		cursor: pointer;
+		background-color: transparent;
+		border: none;
+	}
+}
