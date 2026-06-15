@@ -289,7 +289,7 @@ a:hover {
 
 .links {
 	display: flex;
-	flex-direction: row;
+	flex-direction: row-reverse;
 	gap: 50px;
 	justify-content: center;
 	margin-top: 60px;
