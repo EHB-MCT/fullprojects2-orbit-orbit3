@@ -6,9 +6,6 @@ const descriptions = [
 	Lokale organisaties die actief zijn in de <strong>strijd tegen armoede</strong> werden ook uitgenodigd om deel te nemen en/of de markt te bezoeken met hun leden.
 	Er werden <strong>oplossingen</strong> voorzien om eventuele <strong>financiële obstakels weg te nemen</strong>, want we willen dat iedereen van dit moment kon genieten.
 	Het was een <strong>warm, solidair en toegankelijk evenement</strong> voor een iets aangenamere maand november.`,
-<<<<<<< HEAD
-	"Beschrijving van foto 2",
-=======
 
 	`Interlevensbeschouwelijke Iftar, Brussel 2026.
 	Een intergenerationele iftar brengt jongeren en ouderen van diverse achtergronden samen om de vasten te verbreken, vaak met als doel verbinding,
@@ -16,11 +13,11 @@ const descriptions = [
   	focussen op ontmoeting en het delen van ervaringen rond de ramadan. De maaltijd begon traditioneel met harira (soep) en dadels bij zonsondergang.
    	Deze evenement vond plaats op 28 februari 2026.`,
 
->>>>>>> 33a0634ea0a12a1e5d86d75de548c1bcac0a7177
 	"Beschrijving van foto 3",
 	"Beschrijving van foto 4",
 	"Beschrijving van foto 5",
 	"Beschrijving van foto 6",
+	"Beschrijving van foto 7",
 ];
 
 const images = [
@@ -30,6 +27,7 @@ const images = [
 	"images/VBfoto5.jpg",
 	"images/VBfoto4.png",
 	"images/VBfoto6.jpg",
+	"images/VBfoto6.jpg",
 ];
 
 let display = document.querySelector("#description-display");
@@ -37,7 +35,7 @@ let infoImage = document.querySelector("#info-image");
 let spans = document.querySelectorAll(".gallery span");
 
 spans.forEach(function (span) {
-	span.addEventListener("mouseup", function () {
+	span.addEventListener("click", function () {
 		let index = span.dataset.index;
 		display.innerHTML = descriptions[index];
 		infoImage.src = images[index];

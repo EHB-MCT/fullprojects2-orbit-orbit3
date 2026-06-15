@@ -21,7 +21,7 @@ body {
 .gallery div {
 	width: 100%;
 	display: grid;
-	grid-template-columns: repeat(6, calc(33.333% - 1vh));
+	grid-template-columns: repeat(7, calc(33.333% - 1vh));
 	overflow-x: scroll;
 	scroll-behavior: smooth;
 	scroll-snap-type: x mandatory;
@@ -82,7 +82,7 @@ body {
 	}
 
 	.gallery div {
-		grid-template-columns: repeat(6, 100%);
+		grid-template-columns: repeat(7, calc(33.333% - 1vh));
 	}
 
 	#backBtn,
