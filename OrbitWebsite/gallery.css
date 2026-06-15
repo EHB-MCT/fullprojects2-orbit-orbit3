@@ -11,6 +11,11 @@ body {
 	background: #f7f2f0;
 }
 
+/* om groen hokje weg te doen */
+.invisible {
+	display: none;
+}
+
 .gallery {
 	/* width: 100%; */
 	display: flex;

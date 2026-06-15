@@ -68,6 +68,11 @@ spans.forEach(function (span) {
 		display.innerHTML = descriptions[index];
 		infoImage.src = images[index];
 
+		//test om groen hoekje waar de foto in hoort te komen te hiden
+		if (infoImage.classList.contains("invisible")) {
+			infoImage.classList.remove("invisible");
+		}
+
 		document.querySelector("#info-section").scrollIntoView({
 			behavior: "smooth",
 			block: "center",
