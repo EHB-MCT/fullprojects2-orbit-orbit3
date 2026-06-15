@@ -278,12 +278,16 @@ a:hover {
 	flex-direction: row;
 	gap: 50px;
 	justify-content: center;
+	margin-top: 60px;
 }
 
 .links .link1,
 .links .link2,
 .links .link3,
-.links .link4 {
+.links .link4,
+.links .link5,
+.links .link6,
+.links .link7 {
 	background-color: #86ba8a;
 	padding: 10px 20px;
 	border-radius: 8px;
@@ -292,7 +296,10 @@ a:hover {
 .links .link1:hover,
 .links .link2:hover,
 .links .link3:hover,
-.links .link4:hover {
+.links .link4:hover,
+.links .link5:hover,
+.links .link6:hover,
+.links .link7:hover {
 	background-color: #25592b;
 	color: #f7f2f0;
 }
@@ -495,7 +502,10 @@ a:hover {
 	.links .link1,
 	.links .link2,
 	.links .link3,
-	.links .link4 {
+	.links .link4,
+	.links .link5,
+	.links .link6,
+	.links .link7 {
 		background-color: #86ba8a;
 		padding: 10px 20px;
 		border-radius: 8px;
@@ -507,7 +517,10 @@ a:hover {
 	.links .link1:hover,
 	.links .link2:hover,
 	.links .link3:hover,
-	.links .link4:hover {
+	.links .link4:hover,
+	.links .link5:hover,
+	.links .link6:hover,
+	.links .link7:hover {
 		background-color: #25592b;
 		color: #f7f2f0;
 	}
