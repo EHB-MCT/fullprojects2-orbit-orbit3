@@ -406,7 +406,6 @@ a:hover {
 		margin-left: 15%;
 		margin-bottom: 2vh;
 		font-size: 10px;
-		text-align: center;
 		padding-right: 2vh;
 	}
 
@@ -426,7 +425,6 @@ a:hover {
 		font-family: "century-gothic", sans-serif;
 		margin-left: 15%;
 		font-size: 20px;
-		text-align: center;
 	}
 	/* footer........................................................................ */
 	.footer {
