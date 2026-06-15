@@ -12,47 +12,44 @@ const descriptions = [
   	focussen op <strong>ontmoeting</strong> en het <strong>delen van ervaringen</strong> rond de <strong>ramadan</strong>. De maaltijd begon traditioneel met harira (soep) en dadels bij zonsondergang.
    	Deze evenement vond plaats op 28 februari 2026.`,
 
-	`Portie Gemengd, 2025 Leuven:
-	Op 22 maart 2025 hebben we samen met enkele <strong>middenveldorganisaties uit Leuven</strong> zoals Broederlijk Delen “Portie Gemengd” 
-	georganiseerd. Dit was naar aanleiding van 3 vastenperiodes die samenvielen, namelijk de Baháʼí, de Ramadan en de christelijke
-	vasten. De mensen kregen op dit evenement een bingoblad waarop vragen stonden om elkaar beter te leren kennen en mensen te
+	`Op 22 maart 2025 hebben we samen met enkele <strong>middenveldorganisaties uit Leuven</strong> zoals Broederlijk Delen “Portie Gemengd” 
+	georganiseerd. Dit was naar aanleiding van <strong>3 vastenperiodes</strong> die samenvielen, namelijk de <strong>Baháʼí, de Ramadan en de christelijke
+	vasten</strong>. De mensen kregen op dit evenement een <strong>bingoblad</strong> waarop vragen stonden om <strong>elkaar beter te leren kennen</strong> en mensen te
 	zoeken die dezelfde kenmerken als hen delen. Dit helpt mensen van verschillende levensbeschouwingen om gesprekken 
-	te starten, en om te beseffen dat er veel gelijkenissen tussen levensbeschouwingen zijn. Daarnaast
-	werd er ook een verbindende maaltijd georganiseerd waar iedereen gerechten van zijn of haar cultuur mocht meenemen om
-	met anderen te delen om een potluck systeem te creëren.`,
+	te starten, en om te beseffen dat er veel <strong>gelijkenissen tussen levensbeschouwingen</strong> zijn. Daarnaast
+	werd er ook een <strong>verbindende maaltijd</strong> georganiseerd waar iedereen <strong>gerechten van zijn of haar cultuur</strong> mocht meenemen om
+	met anderen te delen om een <strong>potluck systeem</strong> te creëren.`,
 
-	`Gezamenlijke vastenmaaltijd, 2026 Willebroek:
-	Op woensdag 11 maart organiseerden de katholieke parochie Sint-Niklaas, moskee Al Khair, moskee Yunus Emre en de orthodoxe 
-	parochie van de Heilige Theofanie samen een gezamenlijke vastenmaaltijd. Alle inwoners konden er mee aan tafel schuiven. 
-	Ons doel was om mensen met verschillende achtergronden samenbrengen en de onderlinge banden versterken. De bijeenkomst start met
- 	een spelletje bingo, dat moet helpen om het gesprek op gang te brengen. Daarna heten vertegenwoordigers van de organiserende
+	`Op <strong>woensdag 11 maart</strong> organiseerden de katholieke parochie Sint-Niklaas, moskee Al Khair, moskee Yunus Emre en de orthodoxe 
+	parochie van de Heilige Theofanie samen een <strong>gezamenlijke vastenmaaltijd</strong>. Alle inwoners konden er mee aan tafel schuiven. 
+	Ons doel was om mensen met <strong>verschillende achtergronden samenbrengen</strong> en de onderlinge <strong>banden versterken</strong>. De bijeenkomst start met
+ 	een <strong>spelletje bingo</strong>, dat moet helpen om het <strong>gesprek</strong> op gang te brengen. Daarna heten vertegenwoordigers van de organiserende
  	gemeenschappen de aanwezigen welkom en kan de maaltijd beginnen`,
 
-	`Toekomstige projecten – Geraardsbergen
-	Samenwerking met de katholieke kerk voor gebruik van leegstaande parochietuin
-	Dit project is momenteel in opstart. Er wordt actief samengewerkt met de katholieke kerk rond het mogelijke gebruik van een leegstaande parochietuin.
-	Werving van LB in het vrijwilligerskorps Crevits
-	Het is nog te vroeg om hier concrete stappen in te zetten. Dit wordt later verder opgepikt.
-	Gesprek met de stad over een begeleidingstraject
-	Er is interesse vanuit de stad voor een samenwerking. Als eerste concrete stap werd een IL-kookactiviteit ter kennismaking toegezegd.
-	Subsidieaanvraag rond het thema "Brood Delen" bij de Orde van de Prins
-	De aanvraag werd ingediend. We wachten momenteel op de uitkomst van de bestuursvergadering in april.`,
+	`<strong>Samenwerking met de katholieke kerk</strong> voor gebruik vanleegstaande parochietuin</strong>:<br /> <strong>
+	Dit project is momenteel in opstart. Er wordt actief samengewerkt met de katholieke kerk rond het mogelijke gebruik van een leegstaande parochietuin. <br />
 
-	`Vier Vrede – Dendermonde, 22 november 2025
-	Het evenement kende een mooie opkomst met 90 aanwezigen uit verschillende levensbeschouwingen. Zowel de dialoog als de 
-	sprekers verliepen zeer goed. Het evenement kwam tot stand in samenwerking met Salamhuis, Dendermozaïek, Pax Christi 
-	en Avansa. De stad stelde de zaal ter beschikking.Voor de toekomst is er opnieuw interesse om samen te werken, 
-	met de toevoeging van de Rwandese gemeenschap als nieuwe partner. Een aandachtspunt hierbij is het bewaken van de 
-	eigenheid van het initiatief en het vermijden van instrumentalisering.`,
+	<strong>Werving van LB in het vrijwilligerskorps Crevits:</strong><br />
+	Het is nog <strong>te vroeg</strong> om hier concrete stappen in te zetten. Dit wordt <strong>later</strong> verder opgepikt. <br />
 
-	` Waasland – Lokeren, 5 november 2026
-	Waasland – Lokeren, 5 november 2026
-	Op 5 november 2026 organiseert Orbit vzw in Lokeren het evenement "Samen Oogsten". Dit samenkomen brengt mensen uit 
-	verschillende levensbeschouwingen en gemeenschappen bij elkaar rond het thema van de oogst — een universeel symbool van delen,
-	samenwerking en dankbaarheid dat in vele culturen en tradities weerklank vindt.
-	"Samen Oogsten" wil een moment van echte ontmoeting zijn, waarbij dialoog en verbinding centraal
-	staan. Via activiteiten, sprekers en gedeelde ervaringen krijgen deelnemers de kans om elkaar beter te leren
-	kennen en bruggen te bouwen over de grenzen van achtergrond, cultuur en geloof heen.
+	<strong>Gesprek >met de stad over een begeleidingstraject:<br /></strong
+	Er is interesse vanuit de stad voor een <strong>samenwerking</strong>. Als eerste concrete stap werd een IL-kookactiviteit ter <strong>kennismaking</strong> toegezegd.<br />
+
+	<strong>Subsidieaanvraag rond het thema "Brood Delen" bij de Orde van de Prins:	</strong><br />
+	De aanvraag werd ingediend. We <strong>wachten</strong> momenteel op de <strong>uitkomst</strong> van de bestuursvergadering in april.`,
+
+	`Het evenement kende een mooie opkomst met <strong>90 aanwezigen</strong> uit <strong>verschillende levensbeschouwingen</strong>. Zowel de dialoog als de 
+	sprekers verliepen zeer goed. Het evenement kwam tot stand in <strong>samenwerking met Salamhuis, Dendermozaïek, Pax Christi 
+	en Avansa</strong>. De stad stelde de zaal ter beschikking. Voor de toekomst is er opnieuw interesse om samen te werken, 
+	met de toevoeging van de <strong>Rwandese gemeenschap</strong> als nieuwe partner. Een aandachtspunt hierbij is het <strong>bewaken van de 
+	eigenheid van het initiatief</strong> en het <strong>vermijden van instrumentalisering</strong>.`,
+
+	`Op <strong>5 november 2026</strong> organiseert Orbit vzw in Lokeren het evenement <strong>"Samen Oogsten"</strong>. Dit samenkomen brengt mensen uit 
+	<strong>verschillende levensbeschouwingen en gemeenschappen</strong> bij elkaar rond het thema van de <strong>oogst</strong>, een universeel symbool van delen,
+	<strong>samenwerking en dankbaarheid</strong> dat in vele culturen en tradities weerklank vindt.
+	"Samen Oogsten" wil een moment van <strong>echte ontmoeting</strong> zijn, waarbij dialoog en verbinding centraal
+	staan. Via <strong>activiteiten</strong>, sprekers en gedeelde ervaringen krijgen deelnemers de kans om <strong>elkaar beter te leren
+	kennen</strong> en bruggen te bouwen over de grenzen van <strong>achtergrond, cultuur en geloof</strong> heen.
 	Het evenement past binnen de bredere werking van Orbit vzw, die in de regio Waasland actief
 	inzet op ontmoeting tussen levensbeschouwelijke gemeenschappen en het versterken van sociale cohesie.`,
 ];
