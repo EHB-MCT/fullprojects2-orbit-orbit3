@@ -22,6 +22,11 @@ body {
 	/* overflow-x: scroll; */
 	overflow: hidden;
 }
+.titelgroot {
+	font-size: 25px;
+	font-weight: bold;
+	padding-top: 35vh;
+}
 
 .gallery div {
 	width: 100%;
@@ -110,7 +115,7 @@ body {
 }
 
 .gallery div span {
-	display: flex;
+	/* display: flex; */
 	flex-direction: column;
 	position: relative;
 	height: 350px;
