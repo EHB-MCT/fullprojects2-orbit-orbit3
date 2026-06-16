@@ -60,7 +60,7 @@ body {
 
 #backBtn,
 #nextBtn {
-	width: 7vh;
+	width: 3vh;
 	cursor: pointer;
 	margin: 5vh;
 }
