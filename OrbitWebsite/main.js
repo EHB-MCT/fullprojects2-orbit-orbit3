@@ -13,6 +13,26 @@ backBtn.addEventListener("click", () => {
 	scrollContainer.scrollLeft -= scrollContainer.offsetWidth;
 });
 
+nextBtn.addEventListener("click", () => {
+	if (window.innerWidth <= 768) {
+		const span = scrollContainer.querySelector("span");
+		const gap = parseFloat(getComputedStyle(scrollContainer).gap);
+		scrollContainer.scrollLeft += span.offsetWidth + gap;
+	} else {
+		scrollContainer.scrollLeft += scrollContainer.offsetWidth;
+	}
+});
+
+backBtn.addEventListener("click", () => {
+	if (window.innerWidth <= 768) {
+		const span = scrollContainer.querySelector("span");
+		const gap = parseFloat(getComputedStyle(scrollContainer).gap);
+		scrollContainer.scrollLeft -= span.offsetWidth + gap;
+	} else {
+		scrollContainer.scrollLeft -= scrollContainer.offsetWidth;
+	}
+});
+
 //BURGERMENU
 let burgerButton = document.querySelector(".burger-menu");
 

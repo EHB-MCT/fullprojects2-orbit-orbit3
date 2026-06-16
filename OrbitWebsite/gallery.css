@@ -87,13 +87,17 @@ body {
 	}
 
 	.gallery div {
-		grid-template-columns: repeat(7, calc(33.333% - 1vh));
+		grid-template-columns: repeat(7, calc(100vw - 9vh - 4vh));
 	}
 
 	#backBtn,
 	#nextBtn {
 		width: 5vh;
 		margin: 2vh;
+	}
+
+	#info-image {
+		display: none;
 	}
 }
 
@@ -147,10 +151,4 @@ body {
 #description {
 	order: 1;
 	flex: 1;
-}
-
-@media screen and (max-width: 768px) {
-	#info-image {
-		display: none;
-	}
 }
