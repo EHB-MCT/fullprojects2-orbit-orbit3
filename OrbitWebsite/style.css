@@ -160,7 +160,6 @@ a:hover {
 	font-family: "montserrat", sans-serif;
 	margin-left: 9%;
 	margin-top: 3vh;
-	font-size: 15px;
 }
 .titels3 h1 {
 	width: fit-content;
@@ -174,7 +173,6 @@ a:hover {
 	font-family: "montserrat", sans-serif;
 	margin-left: 9%;
 	margin-top: 3vh;
-	font-size: 15px;
 }
 
 /* footer........................................................................ */
@@ -305,6 +303,7 @@ a:hover {
 	background-color: #86ba8a;
 	padding: 10px 20px;
 	border-radius: 8px;
+	margin-right: 5px;
 	color: #001e10;
 }
 .links .link1:hover,
