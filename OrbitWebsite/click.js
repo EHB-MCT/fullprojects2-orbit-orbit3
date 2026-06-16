@@ -1,51 +1,51 @@
 const descriptions = [
-	`Op 22 maart 2025 hebben we samen met enkele <strong>middenveldorganisaties uit Leuven</strong> zoals Broederlijk Delen “Portie Gemengd” 
-	georganiseerd. Dit was naar aanleiding van <strong>3 vastenperiodes</strong> die samenvielen, namelijk de <strong>Baháʼí, de Ramadan en de christelijke
-	vasten</strong>. De mensen kregen op dit evenement een <strong>bingoblad</strong> waarop vragen stonden om <strong>elkaar beter te leren kennen</strong> en mensen te
+	`<h2 class="tussentitel">Portie Gemengd</h2><br> Op <strong>22 maart 2025</strong> hebben we samen met enkele middenveldorganisaties uit <strong>Leuven</strong> zoals Broederlijk Delen “<strong>Portie Gemengd</strong>” 
+	georganiseerd. Dit was naar aanleiding van 3 vastenperiodes die samenvielen, namelijk de Baháʼí, de Ramadan en de christelijke
+	vasten. De mensen kregen op dit evenement een bingoblad waarop vragen stonden om elkaar beter te leren kennen en mensen te
 	zoeken die dezelfde kenmerken als hen delen. Dit helpt mensen van verschillende levensbeschouwingen om gesprekken 
-	te starten, en om te beseffen dat er veel <strong>gelijkenissen tussen levensbeschouwingen</strong> zijn. Daarnaast
-	werd er ook een <strong>verbindende maaltijd</strong> georganiseerd waar iedereen <strong>gerechten van zijn of haar cultuur</strong> mocht meenemen om
-	met anderen te delen om een <strong>potluck systeem</strong> te creëren.`,
+	te starten, en om te beseffen dat er veel gelijkenissen tussen levensbeschouwingen zijn. Daarnaast
+	werd er ook een verbindende maaltijd georganiseerd waar iedereen gerechten van zijn of haar cultuur mocht meenemen om
+	met anderen te delen om een potluck systeem te creëren.`,
 
-	`Het evenement kende een mooie opkomst met <strong>90 aanwezigen</strong> uit <strong>verschillende levensbeschouwingen</strong>. Zowel de dialoog als de 
-	sprekers verliepen zeer goed. Het evenement kwam tot stand in <strong>samenwerking met Salamhuis, Dendermozaïek, Pax Christi 
-	en Avansa</strong>. De stad stelde de zaal ter beschikking. Voor de toekomst is er opnieuw interesse om samen te werken, 
-	met de toevoeging van de <strong>Rwandese gemeenschap</strong> als nieuwe partner. Een aandachtspunt hierbij is het <strong>bewaken van de 
-	eigenheid van het initiatief</strong> en het <strong>vermijden van instrumentalisering</strong>.`,
+	`<h2 class="tussentitel">Vier Vrede</h2><br> Het evenement <strong>Vier Vrede</strong>, georganiseerd op <strong>22 november 2025</strong> in <strong>Dendermonde</strong> kende een mooie opkomst met 90 aanwezigen uit verschillende levensbeschouwingen. Zowel de dialoog als de 
+	sprekers verliepen zeer goed. Het evenement kwam tot stand in samenwerking met Salamhuis, Dendermozaïek, Pax Christi 
+	en Avansa. De stad stelde de zaal ter beschikking. Voor de toekomst is er opnieuw interesse om samen te werken, 
+	met de toevoeging van de Rwandese gemeenschap als nieuwe partner. Een aandachtspunt hierbij is het bewaken van de 
+	eigenheid van het initiatief en het vermijden van instrumentalisering.`,
 
-	`Op <strong>29/11</strong> hebben we samen met <strong>Indus</strong> en hun organisaties een <strong>solidaire standenmarkt</strong> georganiseerd.
-	Er waren in totaal <strong>70 bezoekers</strong> langsgekomen om de kraampjes te komen zien.
-	Onze motivatie is eenvoudig: een <strong>evenement creëren waar de gemeenschap samenkomt</strong>,
-	ongeacht afkomst en cultuur, om een belangrijk sociaal <strong>doel te steunen</strong>.
-	Lokale organisaties die actief zijn in de <strong>strijd tegen armoede</strong> werden ook uitgenodigd om deel te nemen en/of de markt te bezoeken met hun leden.
-	Er werden <strong>oplossingen</strong> voorzien om eventuele <strong>financiële obstakels weg te nemen</strong>, want we willen dat iedereen van dit moment kon genieten.
-	Het was een <strong>warm, solidair en toegankelijk evenement</strong> voor een iets aangenamere maand november.`,
+	`<h2 class="tussentitel">Solidaire Standenmarkt</h2><br> Op <strong>29/11</strong> hebben we samen met Indus en hun organisaties een <strong>solidaire standenmarkt</strong> georganiseerd in <strong>Brussel</strong>.
+	Er waren in totaal 70 bezoekers langsgekomen om de kraampjes te komen zien.
+	Onze motivatie is eenvoudig: een evenement creëren waar de gemeenschap samenkomt,
+	ongeacht afkomst en cultuur, om een belangrijk sociaal doel te steunen
+	Lokale organisaties die actief zijn in de strijd tegen armoede werden ook uitgenodigd om deel te nemen en/of de markt te bezoeken met hun leden.
+	Er werden oplossingen voorzien om eventuele financiële obstakels weg te nemen, want we willen dat iedereen van dit moment kon genieten.
+	Het was een warm, solidair en toegankelijk evenement voor een iets aangenamere maand november.`,
 
-	`Een <strong>intergenerationele iftar</strong> brengt jongeren en ouderen van <strong>diverse achtergronden</strong> samen om de <strong>vasten te verbreken</strong>, vaak met als doel <strong>verbinding</strong>,
- 	<strong>dialoog</strong> en <strong>eenzaamheidsbestrijding</strong>. Deze evenementen, zoals georganiseerd door bijvoorbeeld Brussel Ouderenplatform vzw,
-  	focussen op <strong>ontmoeting</strong> en het <strong>delen van ervaringen</strong> rond de <strong>ramadan</strong>. De maaltijd begon traditioneel met harira (soep) en dadels bij zonsondergang.
-   	Dit evenement vond plaats op 28 februari 2026.`,
+	`<h2 class="tussentitel">Interlevensbeschouwelijke Iftar</h2><br> Een <strong>intergenerationele iftar</strong> brengt jongeren en ouderen van diverse achtergronden samen om de vasten te verbreken, vaak met als doel verbinding,
+ 	dialoog en eenzaamheidsbestrijding. Deze evenementen, zoals georganiseerd door bijvoorbeeld Brussel Ouderenplatform vzw,
+  	focussen op ontmoeting en het delen van ervaringen rond de ramadan. De maaltijd begon traditioneel met harira (soep) en dadels bij zonsondergang.
+   	Dit evenement vond plaats op <strong>28 februari 2026</strong> in <strong>Brussel</strong>.`,
 
-	`Op <strong>woensdag 11 maart</strong> organiseerden de katholieke parochie Sint-Niklaas, moskee Al Khair, moskee Yunus Emre en de orthodoxe 
-	parochie van de Heilige Theofanie samen een <strong>gezamenlijke vastenmaaltijd</strong>. Alle inwoners konden er mee aan tafel schuiven. 
-	Ons doel was om mensen met <strong>verschillende achtergronden samenbrengen</strong> en de onderlinge <strong>banden versterken</strong>. De bijeenkomst start met
- 	een <strong>spelletje bingo</strong>, dat moet helpen om het <strong>gesprek</strong> op gang te brengen. Daarna heten vertegenwoordigers van de organiserende
+	`<h2 class="tussentitel">Gezamenlijke vastenmaaltijd</h2><br> Op <strong>woensdag 11 maart</strong> organiseerden de katholieke parochie Sint-Niklaas, moskee Al Khair, moskee Yunus Emre en de orthodoxe 
+	parochie van de Heilige Theofanie samen een <strong>gezamenlijke vastenmaaltijd</strong>. Alle inwoners van <strong>Willebroek</strong> konden er mee aan tafel schuiven. 
+	Ons doel was om mensen met verschillende achtergronden samenbrengen en de onderlinge banden versterken. De bijeenkomst start met
+ 	een spelletje bingo, dat moet helpen om het gesprek op gang te brengen. Daarna heten vertegenwoordigers van de organiserende
  	gemeenschappen de aanwezigen welkom en kan de maaltijd beginnen`,
 
-	`Op <strong>5 november 2026</strong> organiseert Orbit vzw in Lokeren het evenement <strong>"Samen Oogsten"</strong>. Dit samenkomen brengt mensen uit 
-	<strong>verschillende levensbeschouwingen en gemeenschappen</strong> bij elkaar rond het thema van de <strong>oogst</strong>, een universeel symbool van delen,
-	<strong>samenwerking en dankbaarheid</strong> dat in vele culturen en tradities weerklank vindt.
-	"Samen Oogsten" wil een moment van <strong>echte ontmoeting</strong> zijn, waarbij dialoog en verbinding centraal
-	staan. Via <strong>activiteiten</strong>, sprekers en gedeelde ervaringen krijgen deelnemers de kans om <strong>elkaar beter te leren
-	kennen</strong> en bruggen te bouwen over de grenzen van achtergrond, cultuur en geloof heen.
+	`<h2 class="tussentitel">Samen Oogsten</h2><br> Op <strong>5 november 2026</strong> organiseert Orbit vzw in <strong>Lokeren</strong> het evenement <strong>"Samen Oogsten"</strong>. Dit samenkomen brengt mensen uit 
+	verschillende levensbeschouwingen en gemeenschappen bij elkaar rond het thema van de oogst, een universeel symbool van delen,
+	samenwerking en dankbaarheid dat in vele culturen en tradities weerklank vindt.
+	"Samen Oogsten" wil een moment van echte ontmoeting zijn, waarbij dialoog en verbinding centraal
+	staan. Via activiteiten, sprekers en gedeelde ervaringen krijgen deelnemers de kans om elkaar beter te leren
+	kennen en bruggen te bouwen over de grenzen van achtergrond, cultuur en geloof heen.
 	Het evenement past binnen de bredere werking van Orbit vzw, die in de regio Waasland actief
 	inzet op ontmoeting tussen levensbeschouwelijke gemeenschappen en het versterken van sociale cohesie.`,
 
-	`<strong>Samenwerking met de katholieke kerk</strong> voor gebruik van leegstaande parochietuin</strong>:<br />
+	`<h2 class="tussentitel">Toekomstige Projecten</h2><br> Samenwerking met de katholieke kerk voor gebruik van leegstaande parochietuin</strong>:<br />
 	Dit project is momenteel in opstart. Er wordt actief samengewerkt met de katholieke kerk rond het mogelijke gebruik van een leegstaande parochietuin. <br />
-	Het is nog <strong>te vroeg</strong> om hier concrete stappen in te zetten. Dit wordt <strong>later</strong> verder opgepikt. <br />
-	Er is interesse vanuit de stad voor een <strong>samenwerking</strong>. Als eerste concrete stap werd een IL-kookactiviteit ter <strong>kennismaking</strong> toegezegd.<br />
-	De aanvraag werd ingediend. We <strong>wachten</strong> momenteel op de <strong>uitkomst</strong> van de bestuursvergadering in april.`,
+	Het is nog te vroeg om hier concrete stappen in te zetten. Dit wordt later verder opgepikt. <br />
+	Er is interesse vanuit de stad voor een samenwerking. Als eerste concrete stap werd een <strong>IL-kookactiviteit</strong> ter kennismaking toegezegd.<br />
+	De aanvraag werd ingediend. We wachten momenteel op de uitkomst van de bestuursvergadering in <strong>april</strong>.`,
 ];
 
 const images = [

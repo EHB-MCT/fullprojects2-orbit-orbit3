@@ -2,6 +2,10 @@
 @import url("https://use.typekit.net/ilz0qoo.css");
 @import url("gallery.css");
 
+* {
+	scroll-behavior: smooth;
+}
+
 body {
 	margin: 0;
 	background-color: #f7f2f0;
@@ -74,6 +78,9 @@ body {
 	gap: 50px;
 	align-items: center;
 	list-style: none;
+}
+.tussentitel {
+	font-size: 32px;
 }
 
 /* begin burger code */
@@ -153,30 +160,36 @@ a:hover {
 	border-radius: 8px;
 	background-color: #86ba8a;
 	font-family: "century-gothic", sans-serif;
-	padding: 0 12px;
-	margin-left: 9%;
+	padding: 0px 12px;
+	margin-left: 10%;
 }
 .titels2 p {
 	font-family: "montserrat", sans-serif;
 	margin-left: 9%;
 	margin-top: 3vh;
-	font-size: 18px;
+	padding: 0px 1vw;
 }
 .titels3 h1 {
 	width: fit-content;
 	border-radius: 8px;
 	background-color: #86ba8a;
 	font-family: "century-gothic", sans-serif;
-	padding: 0 12px;
-	margin-left: 9%;
+	padding: 0px 15px;
+	margin-left: 10%;
 }
 .titels3 p {
 	font-family: "montserrat", sans-serif;
-	margin-left: 9%;
+	margin-left: 10%;
 	margin-top: 3vh;
-	font-size: 15px;
 }
-
+.cta {
+	font-size: 18px;
+	text-decoration: underline;
+	color: #25592b;
+}
+.cta:hover {
+	color: #001e10;
+}
 /* footer........................................................................ */
 .footer {
 	background-color: #86ba8a;
@@ -302,10 +315,11 @@ a:hover {
 .links .link5,
 .links .link6,
 .links .link7 {
-	background-color: #86ba8a;
+	background-color: #25592b;
+	color: #f7f2f0;
 	padding: 10px 20px;
 	border-radius: 8px;
-	color: #001e10;
+	margin-right: 5px;
 }
 .links .link1:hover,
 .links .link2:hover,
@@ -314,8 +328,8 @@ a:hover {
 .links .link5:hover,
 .links .link6:hover,
 .links .link7:hover {
-	background-color: #25592b;
-	color: #f7f2f0;
+	background-color: #86ba8a;
+	color: #001e10;
 }
 
 /* Mobile................................................................................ */
@@ -424,7 +438,7 @@ a:hover {
 
 	.titels2 p {
 		font-family: "montserrat", sans-serif;
-		margin-left: 15%;
+		margin-left: 14%;
 		margin-top: 2vh;
 		font-size: 15px;
 		text-align: left;
@@ -438,6 +452,21 @@ a:hover {
 		font-family: "century-gothic", sans-serif;
 		margin: 0 15%;
 		font-size: 20px;
+	}
+	.titels3 h1 {
+		width: fit-content;
+		border-radius: 8px;
+		background-color: #86ba8a;
+		font-family: "century-gothic", sans-serif;
+		padding: 0 12px;
+		margin-left: 15%;
+		font-size: 20px;
+	}
+	.titels3 p {
+		font-family: "montserrat", sans-serif;
+		margin-left: 15%;
+		margin-top: 3vh;
+		font-size: 15px;
 	}
 	/* footer........................................................................ */
 	.footer {
@@ -517,11 +546,11 @@ a:hover {
 	.links .link5,
 	.links .link6,
 	.links .link7 {
-		background-color: #86ba8a;
+		background-color: #25592b;
 		padding: 10px 20px;
 		border-radius: 8px;
 		margin: 0 auto;
-		color: #001e10;
+		color: #f7f2f0;
 		display: block;
 		width: fit-content;
 	}
