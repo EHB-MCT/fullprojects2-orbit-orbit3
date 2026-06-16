@@ -2,10 +2,6 @@
 @import url("https://use.typekit.net/ilz0qoo.css");
 @import url("gallery.css");
 
-* {
-	scroll-behavior: smooth;
-}
-
 body {
 	margin: 0;
 	background-color: #f7f2f0;
@@ -27,9 +23,8 @@ body {
 
 .intro p {
 	flex: 1;
-	width: 85%;
+	width: 80%;
 	font-size: 18px;
-	margin-top: 7vh;
 }
 
 .gallery {
@@ -166,37 +161,19 @@ a:hover {
 	margin-left: 9%;
 	margin-top: 3vh;
 	padding: 0px 1vw;
-	font-size: 18px;
 }
 .titels3 h1 {
 	width: fit-content;
 	border-radius: 8px;
 	background-color: #86ba8a;
 	font-family: "century-gothic", sans-serif;
-	padding: 0px 15px;
+	padding: 0 12px;
 	margin-left: 9%;
 }
 .titels3 p {
 	font-family: "montserrat", sans-serif;
 	margin-left: 9%;
 	margin-top: 3vh;
-	font-size: 18px;
-}
-
-.tussentitel {
-	font-size: 32px;
-}
-
-.cta {
-	font-size: 20px;
-	font-weight: bold;
-	color: #001e10;
-	cursor: pointer;
-	text-decoration: underline;
-	margin-top: 200px;
-}
-.cta:hover {
-	color: #86ba8a;
 }
 
 /* footer........................................................................ */
@@ -324,11 +301,13 @@ a:hover {
 .links .link5,
 .links .link6,
 .links .link7 {
-	background-color: #86ba8a;
+	background-color: #25592b;
+	color: #f7f2f0;
+	
 	padding: 10px 20px;
 	border-radius: 8px;
 	margin-right: 5px;
-	color: #001e10;
+	
 }
 .links .link1:hover,
 .links .link2:hover,
@@ -337,8 +316,8 @@ a:hover {
 .links .link5:hover,
 .links .link6:hover,
 .links .link7:hover {
-	background-color: #25592b;
-	color: #f7f2f0;
+	background-color: #86ba8a;
+	color: #001e10;
 }
 
 /* Mobile................................................................................ */
