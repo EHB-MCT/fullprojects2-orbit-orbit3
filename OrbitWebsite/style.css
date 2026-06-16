@@ -160,7 +160,7 @@ a:hover {
 	font-family: "montserrat", sans-serif;
 	margin-left: 9%;
 	margin-top: 3vh;
-	font-size: 18px;
+	font-size: 15px;
 }
 .titels3 h1 {
 	width: fit-content;
@@ -174,7 +174,7 @@ a:hover {
 	font-family: "montserrat", sans-serif;
 	margin-left: 9%;
 	margin-top: 3vh;
-	font-size: 18px;
+	font-size: 15px;
 }
 
 /* footer........................................................................ */
@@ -438,6 +438,21 @@ a:hover {
 		font-family: "century-gothic", sans-serif;
 		margin: 0 15%;
 		font-size: 20px;
+	}
+	.titels3 h1 {
+		width: fit-content;
+		border-radius: 8px;
+		background-color: #86ba8a;
+		font-family: "century-gothic", sans-serif;
+		padding: 0 12px;
+		margin-left: 9%;
+		font-size: 20px;
+	}
+	.titels3 p {
+		font-family: "montserrat", sans-serif;
+		margin-left: 9%;
+		margin-top: 3vh;
+		font-size: 15px;
 	}
 	/* footer........................................................................ */
 	.footer {

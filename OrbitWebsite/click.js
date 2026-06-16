@@ -64,7 +64,7 @@ let infoImage = document.querySelector("#info-image");
 let spans = document.querySelectorAll(".gallery span");
 
 spans.forEach(function (span) {
-	span.addEventListener("mouseup", function () {
+	span.addEventListener("click", function () {
 		let index = span.dataset.index;
 		display.innerHTML = descriptions[index];
 		infoImage.src = images[index];
