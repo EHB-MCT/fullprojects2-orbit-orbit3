@@ -40,13 +40,12 @@ const descriptions = [
 	kennen</strong> en bruggen te bouwen over de grenzen van achtergrond, cultuur en geloof heen.
 	Het evenement past binnen de bredere werking van Orbit vzw, die in de regio Waasland actief
 	inzet op ontmoeting tussen levensbeschouwelijke gemeenschappen en het versterken van sociale cohesie.`,
-	
+
 	`<strong>Samenwerking met de katholieke kerk</strong> voor gebruik van leegstaande parochietuin</strong>:<br />
 	Dit project is momenteel in opstart. Er wordt actief samengewerkt met de katholieke kerk rond het mogelijke gebruik van een leegstaande parochietuin. <br />
 	Het is nog <strong>te vroeg</strong> om hier concrete stappen in te zetten. Dit wordt <strong>later</strong> verder opgepikt. <br />
 	Er is interesse vanuit de stad voor een <strong>samenwerking</strong>. Als eerste concrete stap werd een IL-kookactiviteit ter <strong>kennismaking</strong> toegezegd.<br />
 	De aanvraag werd ingediend. We <strong>wachten</strong> momenteel op de <strong>uitkomst</strong> van de bestuursvergadering in april.`,
-
 ];
 
 const images = [
